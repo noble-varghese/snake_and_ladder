@@ -1,0 +1,168 @@
+Enter the size of the board (BS): 100
+Enter the number of dice (D): 1
+Enter the Number of Snakes (S): 9
+Enter the Number of Ladders (L): 8
+Enter the number of Crocodiles (C): 9
+Enter the Number of mines (M): 19
+Enter the Number of players (N): 3
+Select the movement strategy (MS): 
+1.SUM (sum of numbers on dice)
+2.MAX (max of numbers on dice)
+3.MIN (min of number on dice)
+
+Noble rolled a 6 and moved from 0 to 6
+Robin rolled a 5 and moved from 0 to 5
+Deepika rolled a 2 and climbed the ladder at 2 and moved from 2 to 37
+Noble rolled a 2 and hit by mine at 6. Held for 2 moves
+Robin rolled a 4 and moved from 5 to 9
+Deepika rolled a 2 and hit by mine at 37. Held for 2 moves
+Noble rolled a 4 and hit by mine at 6. Held for 1 moves
+Robin rolled a 5 and moved from 9 to 14
+Deepika rolled a 2 and hit by mine at 37. Held for 1 moves
+Noble rolled a 4 and climbed the ladder at 10 and moved from 10 to 32
+Robin rolled a 2 and moved from 14 to 16
+Deepika rolled a 5 and moved from 37 to 42
+Noble rolled a 3 and moved from 32 to 35
+Robin rolled a 1 and moved from 16 to 17
+Deepika rolled a 4 and moved from 42 to 46
+Noble rolled a 6 and bitten by snake at 41 and moved from 41 to 20 
+Robin rolled a 5 and bitten by crocodile at 22 and moved from 22 to 17
+Deepika rolled a 1 and bitten by crocodile at 47 and moved from 47 to 42
+Noble rolled a 6 and hit by mine at 20. Held for 2 moves
+Robin rolled a 4 and moved from 17 to 21
+Deepika rolled a 3 and moved from 42 to 45
+Noble rolled a 6 and hit by mine at 20. Held for 1 moves
+Robin rolled a 6 and climbed the ladder at 27 and moved from 27 to 46
+Deepika rolled a 1 and moved from 45 to 46
+Noble rolled a 4 and moved from 20 to 24
+Robin rolled a 5 and moved from 0 to 5
+Deepika rolled a 1 and bitten by crocodile at 47 and moved from 47 to 42
+Noble rolled a 5 and moved from 24 to 29
+Robin rolled a 6 and moved from 5 to 11
+Deepika rolled a 4 and moved from 42 to 46
+Noble rolled a 2 and moved from 29 to 31
+Robin rolled a 2 and moved from 11 to 13
+Deepika rolled a 6 and moved from 46 to 52
+Noble rolled a 2 and bitten by snake at 33 and moved from 33 to 6 
+Robin rolled a 1 and moved from 13 to 14
+Deepika rolled a 3 and hit by mine at 52. Held for 2 moves
+Noble rolled a 4 and hit by mine at 6. Held for 2 moves
+Robin rolled a 6 and moved from 14 to 20
+Deepika rolled a 3 and hit by mine at 52. Held for 1 moves
+Noble rolled a 6 and hit by mine at 6. Held for 1 moves
+Robin rolled a 6 and hit by mine at 20. Held for 2 moves
+Deepika rolled a 1 and moved from 52 to 53
+Noble rolled a 3 and moved from 6 to 9
+Robin rolled a 1 and hit by mine at 20. Held for 1 moves
+Deepika rolled a 5 and bitten by crocodile at 58 and moved from 58 to 53
+Noble rolled a 4 and moved from 9 to 13
+Robin rolled a 5 and moved from 20 to 25
+Deepika rolled a 6 and moved from 53 to 59
+Noble rolled a 5 and moved from 13 to 18
+Robin rolled a 1 and moved from 25 to 26
+Deepika rolled a 4 and bitten by crocodile at 63 and moved from 63 to 58
+Noble rolled a 5 and moved from 18 to 23
+Robin rolled a 2 and hit by mine at 26. Held for 2 moves
+Deepika rolled a 6 and moved from 58 to 64
+Noble rolled a 2 and hit by mine at 23. Held for 2 moves
+Robin rolled a 5 and hit by mine at 26. Held for 1 moves
+Deepika rolled a 2 and moved from 64 to 66
+Noble rolled a 6 and hit by mine at 23. Held for 1 moves
+Robin rolled a 4 and moved from 26 to 30
+Deepika rolled a 4 and moved from 66 to 70
+Noble rolled a 1 and moved from 23 to 24
+Robin rolled a 6 and hit by mine at 30. Held for 2 moves
+Deepika rolled a 2 and hit by mine at 70. Held for 2 moves
+Noble rolled a 6 and moved from 24 to 30
+Robin rolled a 2 and hit by mine at 0. Held for 1 moves
+Deepika rolled a 5 and hit by mine at 70. Held for 1 moves
+Noble rolled a 4 and hit by mine at 30. Held for 2 moves
+Robin rolled a 3 and moved from 0 to 3
+Deepika rolled a 2 and moved from 70 to 72
+Noble rolled a 5 and hit by mine at 30. Held for 1 moves
+Robin rolled a 6 and moved from 3 to 9
+Deepika rolled a 4 and hit by mine at 72. Held for 2 moves
+Noble rolled a 1 and moved from 30 to 31
+Robin rolled a 4 and moved from 9 to 13
+Deepika rolled a 4 and hit by mine at 72. Held for 1 moves
+Noble rolled a 1 and moved from 31 to 32
+Robin rolled a 6 and moved from 13 to 19
+Deepika rolled a 1 and moved from 72 to 73
+Noble rolled a 4 and moved from 32 to 36
+Robin rolled a 2 and moved from 19 to 21
+Deepika rolled a 2 and moved from 73 to 75
+Noble rolled a 3 and moved from 36 to 39
+Robin rolled a 3 and moved from 21 to 24
+Deepika rolled a 2 and moved from 75 to 77
+Noble rolled a 6 and moved from 39 to 45
+Robin rolled a 3 and climbed the ladder at 27 and moved from 27 to 46
+Deepika rolled a 1 and hit by mine at 77. Held for 2 moves
+Noble rolled a 5 and moved from 45 to 50
+Robin rolled a 6 and moved from 46 to 52
+Deepika rolled a 2 and hit by mine at 77. Held for 1 moves
+Noble rolled a 6 and bitten by snake at 56 and moved from 56 to 53 
+Robin rolled a 4 and hit by mine at 52. Held for 2 moves
+Deepika rolled a 6 and moved from 77 to 83
+Noble rolled a 2 and moved from 53 to 55
+Robin rolled a 4 and hit by mine at 52. Held for 1 moves
+Deepika rolled a 1 and hit by mine at 83. Held for 2 moves
+Noble rolled a 6 and hit by mine at 55. Held for 2 moves
+Robin rolled a 5 and moved from 52 to 57
+Deepika rolled a 5 and hit by mine at 83. Held for 1 moves
+Noble rolled a 3 and hit by mine at 55. Held for 1 moves
+Robin rolled a 5 and bitten by snake at 62 and moved from 62 to 5 
+Deepika rolled a 6 and moved from 83 to 89
+Noble rolled a 2 and moved from 55 to 57
+Robin rolled a 3 and moved from 5 to 8
+Deepika rolled a 6 and bitten by snake at 95 and moved from 95 to 75 
+Noble rolled a 1 and bitten by crocodile at 58 and moved from 58 to 53
+Robin rolled a 3 and moved from 8 to 11
+Deepika rolled a 3 and moved from 75 to 78
+Noble rolled a 3 and bitten by snake at 56 and moved from 56 to 53 
+Robin rolled a 5 and moved from 11 to 16
+Deepika rolled a 6 and moved from 78 to 84
+Noble rolled a 3 and bitten by snake at 56 and moved from 56 to 53 
+Robin rolled a 6 and bitten by crocodile at 22 and moved from 22 to 17
+Deepika rolled a 4 and hit by mine at 84. Held for 2 moves
+Noble rolled a 1 and moved from 53 to 54
+Robin rolled a 1 and moved from 17 to 18
+Deepika rolled a 3 and hit by mine at 84. Held for 1 moves
+Noble rolled a 1 and moved from 54 to 55
+Robin rolled a 1 and moved from 18 to 19
+Deepika rolled a 5 and moved from 84 to 89
+Noble rolled a 3 and hit by mine at 55. Held for 2 moves
+Robin rolled a 1 and moved from 19 to 20
+Deepika rolled a 3 and moved from 89 to 92
+Noble rolled a 1 and hit by mine at 55. Held for 1 moves
+Robin rolled a 3 and hit by mine at 20. Held for 2 moves
+Deepika rolled a 2 and moved from 92 to 94
+Noble rolled a 3 and bitten by crocodile at 58 and moved from 58 to 53
+Robin rolled a 6 and hit by mine at 20. Held for 1 moves
+Deepika rolled a 2 and moved from 94 to 96
+Noble rolled a 2 and moved from 53 to 55
+Robin rolled a 2 and bitten by crocodile at 22 and moved from 22 to 17
+Deepika rolled a 5 at 96 but can't move!
+Noble rolled a 1 and hit by mine at 55. Held for 2 moves
+Robin rolled a 1 and moved from 17 to 18
+Deepika rolled a 3 and moved from 96 to 99
+Noble rolled a 3 and hit by mine at 55. Held for 1 moves
+Robin rolled a 4 and bitten by crocodile at 22 and moved from 22 to 17
+Deepika rolled a 1 and moved from 99 to 100
+Noble rolled a 6 and climbed the ladder at 61 and moved from 61 to 79
+Robin rolled a 1 and moved from 17 to 18
+Noble rolled a 6 and bitten by crocodile at 85 and moved from 85 to 80
+Robin rolled a 1 and moved from 18 to 19
+Noble rolled a 1 and climbed the ladder at 81 and moved from 81 to 98
+Robin rolled a 1 and moved from 19 to 20
+Noble rolled a 5 at 98 but can't move!
+Robin rolled a 1 and hit by mine at 20. Held for 2 moves
+Noble rolled a 4 at 98 but can't move!
+Robin rolled a 6 and hit by mine at 20. Held for 1 moves
+Noble rolled a 5 at 98 but can't move!
+Robin rolled a 3 and moved from 20 to 23
+Noble rolled a 4 at 98 but can't move!
+Robin rolled a 6 and hit by mine at 23. Held for 2 moves
+Noble rolled a 3 at 98 but can't move!
+Robin rolled a 3 and hit by mine at 23. Held for 1 moves
+Noble rolled a 2 and moved from 98 to 100
+Game Over!
