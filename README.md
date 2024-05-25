@@ -1,7 +1,7 @@
 # Snake and Ladders Game
 
 
-Welcome to the Snake and Ladders game! This classic board game is now available for you to enjoy on your computer. Roll the dice, move your token, and race to the finish line, avoiding snakes and climbing ladders along the way.
+Welcome to the Snake and Ladders game!
 
 ## Getting Started
 To play the Snake and Ladders game, follow these steps:
