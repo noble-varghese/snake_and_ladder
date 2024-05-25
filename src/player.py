@@ -8,6 +8,7 @@ class Player:
         self.position = 0
         self.win_status = False
         self.turns_held = 0
+        self.game_position = -1
 
     def get_player_name(self):
         return self.name
@@ -39,6 +40,12 @@ class Player:
 
     def set_win_status(self, status):
         self.win_status = status
+    
+    def set_player_position(self, pos):
+        self.game_position = pos
+    
+    def get_player_position(self):
+        return self.game_position 
 
     def object_type(self):
         return "Player"

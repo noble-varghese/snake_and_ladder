@@ -17,6 +17,7 @@ class Game:
         self.dice = Dice(6, num_of_dice=num_of_dice,
                          strategy=movement_strategy)
         self.board = Board(board_size)
+        self.curr_win_position = 0
 
     def set_players(self, players: List[str]):
         self.active_players = len(players)
@@ -64,8 +65,9 @@ class Game:
 
     def play_game(self, player: Player, dice_val: int):
         if not player.get_win_status():
-            # Unset the player
+            # Unset the player from the board.
             self.board.unset_player(player)
+
             # Play the player if not a winner.
             init_pos = player.get_position()
             final_pos = self.board.get_next_position(
@@ -85,7 +87,9 @@ class Game:
                     player.set_turns_held(turns_held)
 
                 if self.board.check_player_status(curr_pos):
+                    self.curr_win_position += 1
                     player.set_win_status(True)
+                    player.set_player_position(self.curr_win_position)
                     self.active_players -= 1
 
                 if self.board.check_other_players(curr_pos):
@@ -98,5 +102,14 @@ class Game:
             self.update_player(player)
 
         if self.active_players < 2:
-            print('Game Over!')
+            print('\nGame Over! Game positions are:')
+            sorted_players = sorted(self.players.values(), key=lambda x: (
+                x.get_player_position() if x.get_player_position() != -1 else float('inf')))
+
+            for player in sorted_players:
+                if player.get_player_position() == -1:
+                    print(f"Loser: {player.get_player_name()}")
+                else:
+                    print(f"{player.get_player_position()}. {player.get_player_name()}")
+
             sys.exit(1)

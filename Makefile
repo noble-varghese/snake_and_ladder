@@ -1,3 +1,5 @@
+.PHONY: run run_commands unit_test
+
 run: 
 	python main.py
 
